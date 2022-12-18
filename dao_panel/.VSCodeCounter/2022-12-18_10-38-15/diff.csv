@@ -1,0 +1,13 @@
+"filename", "language", "Elixir", "comment", "blank", "total"
+"/Users/liaohua/dao_panel/config/config.exs", "Elixir", 1, 0, 0, 1
+"/Users/liaohua/dao_panel/lib/dao_panel/contracts/erc20_handler.ex", "Elixir", 29, 0, 6, 35
+"/Users/liaohua/dao_panel/lib/dao_panel/github_handler.ex", "Elixir", 19, 1, 4, 24
+"/Users/liaohua/dao_panel/lib/dao_panel_web/live/home_live.ex", "Elixir", 4, 1, 1, 6
+"/Users/liaohua/dao_panel/lib/utils/crypto.ex", "Elixir", 81, 4, 21, 106
+"/Users/liaohua/dao_panel/lib/utils/ethereum/abi.ex", "Elixir", 82, 0, 11, 93
+"/Users/liaohua/dao_panel/lib/utils/ethereum/argument.ex", "Elixir", 131, 22, 35, 188
+"/Users/liaohua/dao_panel/lib/utils/ethereum/event.ex", "Elixir", 19, 1, 8, 28
+"/Users/liaohua/dao_panel/lib/utils/ethereum/event_log.ex", "Elixir", 39, 1, 11, 51
+"/Users/liaohua/dao_panel/lib/utils/ethereum/ex_sha_3.ex", "Elixir", 336, 53, 24, 413
+"/Users/liaohua/dao_panel/lib/utils/ethereum/function.ex", "Elixir", 19, 0, 4, 23
+"Total", "-", 760, 83, 125, 968

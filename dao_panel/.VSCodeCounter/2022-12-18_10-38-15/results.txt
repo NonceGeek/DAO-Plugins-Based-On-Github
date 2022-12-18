@@ -1,0 +1,109 @@
+Date : 2022-12-18 10:38:15
+Directory : /Users/liaohua/dao_panel
+Total : 56 files,  4392 codes, 466 comments, 619 blanks, all 5477 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| Elixir       |         44 |      2,524 |        383 |        437 |      3,344 |
+| HEEx         |          3 |      1,503 |          0 |        117 |      1,620 |
+| JavaScript   |          5 |        263 |         51 |         23 |        337 |
+| CSS          |          2 |         61 |         25 |         19 |        105 |
+| Markdown     |          1 |         22 |          0 |         14 |         36 |
+| Shell Script |          1 |         19 |          7 |          9 |         35 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |         56 |      4,392 |        466 |        619 |      5,477 |
+| assets                                                                           |          7 |        324 |         76 |         42 |        442 |
+| assets/css                                                                       |          2 |         61 |         25 |         19 |        105 |
+| assets/js                                                                        |          3 |         66 |         40 |         14 |        120 |
+| assets/js/hooks                                                                  |          2 |         18 |          1 |          4 |         23 |
+| assets/vendor                                                                    |          1 |        153 |          9 |          6 |        168 |
+| config                                                                           |          5 |        130 |        154 |         46 |        330 |
+| lib                                                                              |         31 |      3,621 |        190 |        457 |      4,268 |
+| lib/dao_panel                                                                    |          5 |        133 |         18 |         30 |        181 |
+| lib/dao_panel/contracts                                                          |          1 |         29 |          0 |          6 |         35 |
+| lib/dao_panel_web                                                                |         15 |      2,586 |         82 |        269 |      2,937 |
+| lib/dao_panel_web/components                                                     |          4 |        785 |         28 |         92 |        905 |
+| lib/dao_panel_web/components/layouts                                             |          2 |        156 |          0 |         10 |        166 |
+| lib/dao_panel_web/controllers                                                    |          5 |      1,368 |         20 |        116 |      1,504 |
+| lib/dao_panel_web/controllers/page_html                                          |          1 |      1,347 |          0 |        107 |      1,454 |
+| lib/dao_panel_web/live                                                           |          2 |        278 |          2 |         29 |        309 |
+| lib/utils                                                                        |          9 |        809 |         83 |        132 |      1,024 |
+| lib/utils/ethereum                                                               |          6 |        626 |         77 |         93 |        796 |
+| priv                                                                             |          2 |          4 |         11 |          2 |         17 |
+| priv/repo                                                                        |          2 |          4 |         11 |          2 |         17 |
+| priv/repo/migrations                                                             |          1 |          4 |          0 |          1 |          5 |
+| test                                                                             |          6 |        109 |          3 |         29 |        141 |
+| test/dao_panel_web                                                               |          3 |         30 |          1 |          9 |         40 |
+| test/dao_panel_web/controllers                                                   |          3 |         30 |          1 |          9 |         40 |
+| test/support                                                                     |          2 |         77 |          2 |         19 |         98 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                         | language     | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| /Users/liaohua/dao_panel/.formatter.exs                                          | Elixir       |          6 |          0 |          1 |          7 |
+| /Users/liaohua/dao_panel/README.md                                               | Markdown     |         22 |          0 |         14 |         36 |
+| /Users/liaohua/dao_panel/assets/css/app.css                                      | CSS          |         24 |         17 |          7 |         48 |
+| /Users/liaohua/dao_panel/assets/css/petal-components-enhancements.css            | CSS          |         37 |          8 |         12 |         57 |
+| /Users/liaohua/dao_panel/assets/js/app.js                                        | JavaScript   |         48 |         39 |         10 |         97 |
+| /Users/liaohua/dao_panel/assets/js/hooks/color-scheme-hook.js                    | JavaScript   |         14 |          1 |          2 |         17 |
+| /Users/liaohua/dao_panel/assets/js/hooks/index.js                                | JavaScript   |          4 |          0 |          2 |          6 |
+| /Users/liaohua/dao_panel/assets/tailwind.config.js                               | JavaScript   |         44 |          2 |          3 |         49 |
+| /Users/liaohua/dao_panel/assets/vendor/topbar.js                                 | JavaScript   |        153 |          9 |          6 |        168 |
+| /Users/liaohua/dao_panel/config/config.exs                                       | Elixir       |         45 |         20 |         12 |         77 |
+| /Users/liaohua/dao_panel/config/dev.exs                                          | Elixir       |         32 |         38 |         10 |         80 |
+| /Users/liaohua/dao_panel/config/prod.exs                                         | Elixir       |          5 |         12 |          6 |         23 |
+| /Users/liaohua/dao_panel/config/runtime.exs                                      | Elixir       |         32 |         73 |         11 |        116 |
+| /Users/liaohua/dao_panel/config/test.exs                                         | Elixir       |         16 |         11 |          7 |         34 |
+| /Users/liaohua/dao_panel/lib/dao_panel.ex                                        | Elixir       |          8 |          0 |          2 |         10 |
+| /Users/liaohua/dao_panel/lib/dao_panel/application.ex                            | Elixir       |         21 |         13 |          5 |         39 |
+| /Users/liaohua/dao_panel/lib/dao_panel/contracts/erc20_handler.ex                | Elixir       |         29 |          0 |          6 |         35 |
+| /Users/liaohua/dao_panel/lib/dao_panel/github_handler.ex                         | Elixir       |         75 |          5 |         17 |         97 |
+| /Users/liaohua/dao_panel/lib/dao_panel/mailer.ex                                 | Elixir       |          3 |          0 |          1 |          4 |
+| /Users/liaohua/dao_panel/lib/dao_panel/repo.ex                                   | Elixir       |          5 |          0 |          1 |          6 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web.ex                                    | Elixir       |         85 |          7 |         24 |        116 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/components/core_components.ex         | Elixir       |        625 |         28 |         80 |        733 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/components/layouts.ex                 | Elixir       |          4 |          0 |          2 |          6 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/components/layouts/app.html.heex      | HEEx         |        131 |          0 |          7 |        138 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/components/layouts/root.html.heex     | HEEx         |         25 |          0 |          3 |         28 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/controllers/error_html.ex             | Elixir       |          6 |         11 |          3 |         20 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/controllers/error_json.ex             | Elixir       |          5 |          9 |          2 |         16 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/controllers/page_controller.ex        | Elixir       |          6 |          0 |          2 |          8 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/controllers/page_html.ex              | Elixir       |          4 |          0 |          2 |          6 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/controllers/page_html/home.html.heex  | HEEx         |      1,347 |          0 |        107 |      1,454 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/endpoint.ex                           | Elixir       |         34 |          9 |          9 |         52 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/gettext.ex                            | Elixir       |         15 |          3 |          7 |         25 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/live/home_live.ex                     | Elixir       |        167 |          2 |         12 |        181 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/live/page_live.ex                     | Elixir       |        111 |          0 |         17 |        128 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/router.ex                             | Elixir       |         31 |         10 |          8 |         49 |
+| /Users/liaohua/dao_panel/lib/dao_panel_web/telemetry.ex                          | Elixir       |         75 |         10 |          8 |         93 |
+| /Users/liaohua/dao_panel/lib/utils/constants.ex                                  | Elixir       |          5 |          0 |          1 |          6 |
+| /Users/liaohua/dao_panel/lib/utils/crypto.ex                                     | Elixir       |         81 |          4 |         21 |        106 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/abi.ex                               | Elixir       |         82 |          0 |         11 |         93 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/argument.ex                          | Elixir       |        131 |         22 |         35 |        188 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/event.ex                             | Elixir       |         19 |          1 |          8 |         28 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/event_log.ex                         | Elixir       |         39 |          1 |         11 |         51 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/ex_sha_3.ex                          | Elixir       |        336 |         53 |         24 |        413 |
+| /Users/liaohua/dao_panel/lib/utils/ethereum/function.ex                          | Elixir       |         19 |          0 |          4 |         23 |
+| /Users/liaohua/dao_panel/lib/utils/http.ex                                       | Elixir       |         97 |          2 |         17 |        116 |
+| /Users/liaohua/dao_panel/mix.exs                                                 | Elixir       |         77 |         25 |         18 |        120 |
+| /Users/liaohua/dao_panel/mix.lock                                                | Elixir       |         80 |          0 |          1 |         81 |
+| /Users/liaohua/dao_panel/priv/repo/migrations/.formatter.exs                     | Elixir       |          4 |          0 |          1 |          5 |
+| /Users/liaohua/dao_panel/priv/repo/seeds.exs                                     | Elixir       |          0 |         11 |          1 |         12 |
+| /Users/liaohua/dao_panel/rename_phoenix_project.sh                               | Shell Script |         19 |          7 |          9 |         35 |
+| /Users/liaohua/dao_panel/test/dao_panel_web/controllers/error_html_test.exs      | Elixir       |         11 |          1 |          4 |         16 |
+| /Users/liaohua/dao_panel/test/dao_panel_web/controllers/error_json_test.exs      | Elixir       |         12 |          0 |          3 |         15 |
+| /Users/liaohua/dao_panel/test/dao_panel_web/controllers/page_controller_test.exs | Elixir       |          7 |          0 |          2 |          9 |
+| /Users/liaohua/dao_panel/test/support/conn_case.ex                               | Elixir       |         29 |          2 |          8 |         39 |
+| /Users/liaohua/dao_panel/test/support/data_case.ex                               | Elixir       |         48 |          0 |         11 |         59 |
+| /Users/liaohua/dao_panel/test/test_helper.exs                                    | Elixir       |          2 |          0 |          1 |          3 |
+| Total                                                                            |              |      4,392 |        466 |        619 |      5,477 |
++----------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
