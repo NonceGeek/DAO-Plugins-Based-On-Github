@@ -11,7 +11,7 @@ import Config
 # before starting your production server.
 config :dao_panel, DAOPanelWeb.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
-  url: [host: "dao-panel.gigalixirapp.com/", port: 443, scheme: "https"]
+  check_origin: false
 
 # Configures Swoosh API Client
 config :swoosh, :api_client, DAOPanel.Finch
